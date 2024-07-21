@@ -1,0 +1,17 @@
+
+.grid-item-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.lineEllipsis {
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	/* 超出2行自动省略*/
+	overflow: hidden;
+}
+
